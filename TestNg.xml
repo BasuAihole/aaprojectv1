@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="aaproject">
+   
+   <listeners>
+        <listener class-name="com.aaproject.utilities.Reporting"/>       
+   </listeners> 
+   
+   <test name="login test">
+    <parameter name="browser" value="firefox"> 
+      <classes>
+           <class name="com.aaproject.testcase.TC_loginTest_001" />
+      </classes>
+    </parameter>
+   </test>
+</suite>   
